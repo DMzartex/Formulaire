@@ -47,3 +47,7 @@ h5{
     background-color: black;
     margin-top: 15px;
 }
+
+fieldset{
+    margin: 15px;
+}
