@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    
 }
 
 .oblig{
@@ -11,19 +10,40 @@ body{
 form{
     width: 30em;
     background-color: #eee;
+    border: 1px solid black;
 }
 legend{
     font-weight: bold;
 }
-.dorian{
-    color: rebeccapurple;
-}
+
 
 h5{
+    margin-top: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     width: 100%;
     background-color: black;
     margin-bottom: 10px;
+}
+
+.btnSignUp{
+   height: 20px;
+   margin-right: 5px;
+}
+
+.btnSignUp a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.blockBtnSignUp{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: 15px;
 }
