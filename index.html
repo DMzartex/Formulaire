@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <form action="" method="post">
+            <fieldset>
+                <legend>Newsletter</legend>
+                    <div>
+                        <label for="name" class="oblig">* Nom :</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="firstName" class="oblig">* Prénom :</label>
+                        <input type="text" id="firstName" name="user_firstName">
+                    </div>
+                    <div>
+                        <label for="email" class="oblig">* Email :</label>
+                        <input type="email" id="email" name="user_email">
+                    </div>
+                    <div>
+                        <label for="pays" class="oblig">* Pays :</label>
+                        <select>
+                            <optgroup label="Europe">
+                                <option selected value="belgique">Belgique</option>
+                                <option value="gb">Grande-Bretagne</option>
+                            </optgroup>
+                            <optgroup label="Amérique du Nord">
+                                <option value="etatsunis">États-Unis</option>
+                                <option value="canada">Canada</option>
+                            </optgroup>
+                            <optgroup label="Asie">
+                                <option value="japon">Japon</option>
+                                <option value="chine">Chine</option>
+                            </optgroup>
+                        </select>      
+                    </div>
+                    <div>
+                        <label for="date" title="Inscrivez votre date de naissance svp.">Date de naissance :</label>
+                        <input type="date" id="start" name="trip-start"
+                        value="2018-07-22"
+                        min="1940-01-01" max="2100-12-31" title="Inscrivez votre date de naissance svp.">
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Périodicité</legend>
+                <div>
+                    <input type="radio" id="Newsletter" name="Newsletter" value="newsletterHebdomadaire">
+                    <label for="newsletterHebdomadaire">Newsletter Hebdomadaire</label>
+                    <input type="radio" id="Newsletter" name="Newsletter" value="newsletterMensuelle">
+                    <label for="newsletterHebdomadaire">Newsletter Mensuelle</label>
+                    <input type="radio" id="Newsletter" name="Newsletter" value="newsletter trimestrielle">
+                    <label for="newsletterHebdomadaire">Newsletter trimestrielle</label>
+                </div>
+            </fieldset>
+    </form>
+        
+    </body>
+</html>

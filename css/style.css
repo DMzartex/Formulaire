@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.oblig{
+    font-weight: bold;
+}
+
+form{
+    width: 30em;
+    background-color: #eee;
+}
+legend{
+    font-weight: bold;
+}
+.dorian{
+    color: rebeccapurple;
+}
