@@ -3,8 +3,39 @@ body{
     padding: 0px;
 }
 
+
 .oblig{
     font-weight: bold;
+}
+input{
+    max-width: 120px;
+}
+select{
+    max-width: 120px;
+}
+#nom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#block{
+    margin-left: 55px;
+}
+#block2{
+    margin-left: -45px;
+}
+#block3{
+    margin-left: -35px;
+}
+
+#block4{
+    margin-left: -28px;
+}
+
+#block5{
+    margin-left: 40px;
 }
 
 form{
@@ -50,4 +81,9 @@ h5{
 
 fieldset{
     margin: 15px;
+}
+
+.exemple{
+    color: #A9A9A9;
+    padding-left: 5px;
 }
